@@ -13,13 +13,13 @@ import AdminPanel from "./components/AdminPanel";
 function App() {
   return (
     <Router>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Login />} />
         <Route path="/register" element={<DonorRegistration />} />
         <Route path="/blood-banks" element={<BloodBanks />} />
         <Route path="/events" element={<DonationEvents />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/dashboard" element={<UserDashboard />} />
         <Route path="/admin" element={<AdminPanel />} />

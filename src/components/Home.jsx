@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Home.css";
+import Navbar from "./Navbar";
 
 const Home = () => {
   const stats = {
@@ -8,6 +9,8 @@ const Home = () => {
   };
 
   return (
+    <>
+    <Navbar/>
     <div className="home-container">
       <h1 className="home-title">Welcome to Blood Donation</h1>
       <p className="home-description">
@@ -34,6 +37,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
