@@ -33,8 +33,8 @@ const DonationEvents = () => {
   const [newEvent, setNewEvent] = useState({ title: "", date: "", location: "" });
 
   // Check if the user is an admin
-  const isAdmin = localStorage.getItem("role") === "admin";
-  // const isAdmin = true;
+  // const isAdmin = localStorage.getItem("role") === "admin";
+  const isAdmin = true;
 
   const handleOpenDialog = () => {
     setOpenDialog(true);

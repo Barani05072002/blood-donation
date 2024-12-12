@@ -14,7 +14,7 @@ const BloodBanks = () => {
 
   // Check if the user is an admin
   // const isAdmin = localStorage.getItem("role") === "admin";
-  // const isAdmin = true;
+  const isAdmin = true;
 
   const handleOpenDialog = () => {
     setOpenDialog(true);
